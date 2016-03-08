@@ -1,0 +1,11 @@
+<uwsgi>
+    <pythonpath>/home/gzy/cmdb/api</pythonpath>
+    <module>manage</module>
+    <callable>app</callable>
+    <socket>127.0.0.1:5000</socket>
+    <master>true</master>
+    <plugins>python</plugins>
+    <processes>4</processes>
+    <memory-report/>
+    
+</uwsgi>

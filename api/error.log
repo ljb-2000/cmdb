@@ -1,0 +1,1 @@
+2016/02/28 23:53:27 [error] 1102#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.2.249, server: localhost, request: "POST /zabbix/api_jsonrpc.php HTTP/1.1", upstream: "http://127.0.0.1:8000/zabbix/api_jsonrpc.php", host: "192.168.2.249"
